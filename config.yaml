@@ -1,0 +1,70 @@
+generalInformation:
+  serviceAdminEmail: jarro06@gmail.com
+  gheUsername: jarro06
+  billingAccount: "1234"
+  billingTeamName: "1234"
+  gheToken: ""
+  adpAccessToken: ""
+gheOrganisation:
+  organisationName: jarro06
+projectInformation:
+  projectShortName: 2811test
+  projectName: Mój super nowy projekt
+  buildType: maven
+  testInstance: true
+  preprodInstance: true
+  uatInstance: false
+nexus:
+  nexusUrl: "12312432435"
+jira:
+  adminToken: ""
+  projectKey: "321312"
+  projectName: "3213123"
+  leadUsername: backstage-config-file
+  documentationUrl: ""
+cloudService:
+  awsOrAzure: aks
+  deploymentLocation: azure_fc1
+  acpOrCRP: acp
+  displayName: AWS CLUSTER
+  version: ""
+  productionCluster: false
+  subscriptionId: "321321"
+  enableStorageProvisioning: true
+  ingressSubnetName: ingr
+  clusterSubnetName: clu
+  adAdminGroupName: admin
+  adViewerGroupName: viewer
+  adEditorGroupName: ediro
+  privateDnsZone: dns
+  awsAccountId: ""
+  instanceType: ""
+  r53HostedZoneDomainName: ""
+  sshWorkerKey: ""
+  availabilityZones: ""
+  az1HarmonizedSubnetId: ""
+  az1WorkerSubnetId: ""
+  az1PodSubnetId: ""
+  az2HarmonizedSubnetId: ""
+  az2WorkerSubnetId: ""
+  az2PodSubnetId: ""
+  az3HarmonizedSubnetId: ""
+  az3WorkerSubnetId: ""
+  az3PodSubnetId: ""
+  workerSecurityGroupIds: ""
+  ingressSecurityGroupIds: ""
+  customDefinedAutomationAdminRole: ""
+automationService:
+  jenkinsOrGithubActions: jenkins
+  jenkinsAdmin: "123"
+  jenkinsDeveloper: "321"
+  jenkinsKubernetesAccess: ""
+  kvUserOrGroupName: ""
+  nexusKubernetesAccess: ""
+gheOrganization:
+  organizationName: jarro06
+  isNew: false
+testingTools:
+  sonarQube: true
+  adminGroup: ""
+  kubernetesAccess: ""
